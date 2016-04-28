@@ -1,0 +1,334 @@
+html, body {
+  font-family: 'Roboto', 'Helvetica', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/**
+ * Set `margin-bottom` to maintain vertical rhythm
+ */
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+ul, ol, dl, figure,
+%vertical-rhythm {
+    margin-bottom: $spacing-unit / 2;
+}
+
+/**
+ * Blockquotes
+ */
+blockquote {
+    color: $grey-color;
+    border-left: 4px solid $grey-color-light;
+    padding-left: $spacing-unit / 2;
+    font-size: 18px;
+    letter-spacing: -1px;
+    font-style: italic;
+
+    > :last-child {
+        margin-bottom: 0;
+    }
+}
+
+/**
+ * Code formatting
+ */
+pre,
+code {
+    font-size: 15px;
+    border: 1px solid $grey-color-light;
+    border-radius: 3px;
+    background-color: #eef;
+}
+
+code {
+    padding: 1px 5px;
+}
+
+pre {
+    padding: 8px 12px;
+    overflow-x: scroll;
+
+    > code {
+        border: 0;
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+/**
+ * Clearfix
+ */
+%clearfix {
+
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+/**
+ * Icons
+ */
+.icon {
+
+    > svg {
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        vertical-align: middle;
+
+        path {
+            fill: $grey-color;
+        }
+    }
+}
+
+.flnt-cast .mdl-layout__header-row {
+  padding-left: 40px;
+}
+
+.flnt-cast .mdl-layout.is-small-screen .mdl-layout__header-row h3 {
+  font-size: inherit;
+}
+
+.flnt-cast .mdl-layout__tab-bar-button {
+  display: none;
+}
+
+.flnt-cast .mdl-layout.is-small-screen .mdl-layout__tab-bar .mdl-button {
+  display: none;
+}
+
+.flnt-cast .mdl-layout:not(.is-small-screen) .mdl-layout__tab-bar,
+.flnt-cast .mdl-layout:not(.is-small-screen) .mld-layout__tab-bar-container {
+  overflow: visible;
+}
+
+.flnt-cast .mdl-layout__tab-bar-container {
+  height: 64px;
+}
+
+.flnt-cast .mdl-layout__tab-bar {
+  padding: 0;
+  padding-left: 16px;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+}
+
+.flnt-cast .mdl-layout__tab-bar .mdl-layout__tab {
+  height: 64px;
+  line-height: 64px;
+}
+
+.flnt-cast .mdl-layout__tab-bar .mdl-layout__tab.is-active::after {
+  background-color: white;
+  height: 4px;
+}
+
+.flnt-cast main > .mdl-layout__tab-panel {
+  padding: 8px;
+  padding-top: 48px;
+}
+
+.flnt-cast .mdl-card {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.flnt-cast .mdl-card > * {
+  height: auto;
+}
+
+.flnt-cast .mdl-card .mld-card__supporting-text {
+  margin: 40px;
+  flex-grow: 1;
+  padding: 0;
+  color: inherit;
+  width: calc(100% - 80px);
+}
+
+.flnt-cast.flnt-cast .mdl-card__supporting-text h4 {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.flnt-cast .mdl-card__actions {
+  margin: 0;
+  padding: 4px 40px;
+  color: inherit;
+}
+
+.flnt-cast .mdl-card__actions a {
+  color: #00BCD4;
+  margin: 0;
+}
+
+.flnt-cast .mdl-card__actions a:hover,
+.flnt-cast .mdl-card__actions a:active {
+  color: inherit;
+  background-color: transparent;
+}
+
+.flnt-cast .mdl-card__supporting-text + .mdl-card__actions {
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.flnt-cast .mdl-layout__content section {
+  position: relative;
+  margin-bottom: 48px;
+}
+
+.flnt-cast section.section--center {
+  max-width: 860px;
+}
+
+.flnt-cast #episode section.section--center {
+  max-width: 620px;
+}
+
+.flnt-cast section > header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flnt-cast section > .section__play-btn {
+  min-height: 200px;
+}
+
+.flnt-cast section > header > .material-icons {
+  font-size: 3rem;
+}
+
+.flnt-cast section > button {
+  position: absolute;
+  z-index: 99;
+  top: 8px;
+  right: 8px;
+}
+
+.flnt-cast section .section__circle {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-grow: 0;
+  flex-shrink: 1;
+}
+
+.flnt-cast section .section__text {
+  flex-grow: 1;
+  flex-shrink: 0;
+  padding-top: 8px;
+}
+
+.flnt-cast section .section__text h5 {
+  font-size: inherit;
+  margin: 0;
+  margin-bottom: 0.5em;
+}
+
+.flnt-cast section .section__text a {
+  text-decoration: none;
+}
+
+.flnt-cast section .section__circle-container > .section__circle-container__circle {
+  width: 64px;
+  height: 64px;
+  border-radius: 32px;
+  margin: 8px 0;
+}
+
+.flnt-cast section.section--footer .section__circle--big {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  margin: 8px 32px;
+}
+.flnt-cast .is-small-screen section.section--footer .section__circle--big {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  margin: 8px 16px;
+}
+
+.flnt-cast section.section--footer {
+  padding: 64px 0;
+  margin: 0 -8px -8px -8px;
+}
+
+.flnt-cast section.section--center .section__text:not(:last-child) {
+  border-bottom: 1px solid rgba(0,0,0,.13);
+}
+.flnt-cast .mdl-card .mdl-card__supporting-text > h3:first-child {
+  margin-bottom: 24px;
+}
+
+.flnt-cast #episode section {
+  margin-bottom: 72px;
+}
+
+.flnt-cast #episode h4, #episode h5 {
+  margin-bottom: 16px;
+}
+
+.flnt-cast .mdl-menu__container {
+  z-index: 99;
+}
+
+.flnt-cast .flnt-cast--avatar {
+  display: block;
+  width: 100%;
+  border-radius: 50%;
+}
+
+.flnt-cast .material-icons.material-icons--white {
+  color: #fff;
+}
+
+.flnt-cast .toc {
+  border-left: 4px solid #C1EEF4;
+  margin: 24px;
+  padding: 0;
+  padding-left: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+.flnt-cast .toc h4 {
+  font-size: 0.9rem;
+  margin-top: 0;
+}
+
+.flnt-cast .toc a {
+  color: #4DD0E1;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 28px;
+  display: block;
+}
+
+.flnt-cast .player {
+  margin-top: 28px;
+  margin-bottom: 56px;
+}
+
+.flnt-cast .comments {
+  margin-top: 56px;
+}
+
+.flnt-cast #episode {
+  display: none;
+}
+
+.flnt-cast #episode.is-active {
+  display: initial;
+}
+
+.flnt-cast .site-title {
+  text-decoration: none;
+  color: #fff;
+}

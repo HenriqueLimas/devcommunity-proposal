@@ -1,0 +1,23 @@
+<footer class="mdl-mini-footer">
+  <div class="mdl-mini-footer__left-section">
+    <div class="mdl-logo">
+      {{ site.title }}
+    </div>
+    <ul class="mdl-mini-footer__link-list">
+      {% for page in site.pages %}
+        {% if page.title %}
+        <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+  <div class="mdl-mini-footer__right-section">
+    <button class="mdl-mini-footer__social-btn">
+      <i class="material-icons material-icons--white">rss_feed</i>
+    </button>
+    
+    <button class="mdl-mini-footer__social-btn">
+      <i class="material-icons material-icons--white">android</i>
+    </button>
+  </div>
+</footer>

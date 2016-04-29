@@ -6,26 +6,19 @@ categories: posts
 permalink: /:categories/:title
 audio: "http://media.blubrry.com/dev_community_cast/p/www.devcommunitycast.com.br/episodios/FaaalaNeto-Ep002-JSMobile.mp3"
 links:
-  - 1:
-    title: "Nokia Widsets"
+  - title: "Nokia Widsets"
     url: "https://en.wikipedia.org/wiki/WidSets"
-  - 2:
-    title: "Nokia Widgets"
+  - title: "Nokia Widgets"
     url: "http://company.nokia.com/en/news/press-releases/2009/06/09/nokia-wrt-plug-ins-let-web-developers-designers-quickly-extend-existing-web-content-to-the-global-mobile-marketplace"
-  - 3:
-    title: "Projeto INdT – Widgets N97"
+  - title: "Projeto INdT – Widgets N97"
     url: "http://tecnologia.terra.com.br/celular/widgets-brasileiros-sao-destaque-no-novo-nokia-n97,0258f98a346ea310VgnCLD200000bbcceb0aRCRD.html"
-  - 4:
-    title: "Rede do Crime – primeiro jogo mobile da Vostu"
+  - title: "Rede do Crime – primeiro jogo mobile da Vostu"
     url: "http://www1.folha.uol.com.br/tec/879544-vostu-lanca-game-rede-do-crime-do-orkut-para-celulares.shtml"
-  - 5:
-    title: "Reactive Native"
+  - title: "Reactive Native"
     url: "https://facebook.github.io/react-native/"
-  - 6:
-    title: "Phonegap"
+  - title: "Phonegap"
     url: "http://phonegap.com/"
-  - 7:
-    title: "Firefox OS"
+  - title: "Firefox OS"
     url: "https://www.mozilla.org/en-US/firefox/os/"
 ---
 

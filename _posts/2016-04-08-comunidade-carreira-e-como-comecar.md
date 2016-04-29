@@ -6,32 +6,23 @@ categories: posts
 permalink: /:categories/:title
 audio: "http://media.blubrry.com/dev_community_cast/p/www.devcommunitycast.com.br/episodios/CommunityCast-Comunidade-Carreira-Piloto-20160407-Ep000.mp3"
 links:
-  - 1:
-    title: "Portal iMasters"
+  - title: "Portal iMasters"
     url: "http://imasters.com.br/"
-  - 2:
-    title: "GDG Curitiba"
+  - title: "GDG Curitiba"
     url: "http://gdgcuritiba.com.br/"
-  - 3:
-    title: "GDG Recife"
+  - title: "GDG Recife"
     url: "http://www.gdgrecife.com/"
-  - 4:
-    title: "Revista Espirito Livre"
+  - title: "Revista Espirito Livre"
     url: "http://www.revista.espiritolivre.org/"
-  - 5:
-    title: "SOUJava"
+  - title: "SOUJava"
     url: "http://soujava.org.br/"
-  - 6:
-    title: "Grupy-SP"
+  - title: "Grupy-SP"
     url: "https://groups.google.com/forum/#!forum/grupy-sp"
-  - 7:
-    title: "PHP-SP"
+  - title: "PHP-SP"
     url: "http://phpsp.org.br/"
-  - 8:
-    title: "Lista de E-mail AndroidBrasil-dev"
+  - title: "Lista de E-mail AndroidBrasil-dev"
     url: "https://groups.google.com/forum/#!forum/androidbrasil-dev"
-  - 9:
-    title: "Slack #Android Dev BR"
+  - title: "Slack #Android Dev BR"
     url: "http://www.androiddevbr.org/"
 ---
 

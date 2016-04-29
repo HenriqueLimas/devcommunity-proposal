@@ -6,23 +6,17 @@ categories: posts
 permalink: /:categories/:title
 audio: "http://media.blubrry.com/dev_community_cast/p/www.devcommunitycast.com.br/episodios/FaaalaNeto-GuidelineNaoERegra-Ep001.mp3"
 links:
-  - 1:
-    title: "Guidelines sobe qualidade"
+  - title: "Guidelines sobe qualidade"
     url: "http://developer.android.com/intl/pt-br/distribute/essentials/index.html#guidelines"
-  - 2:
-    title: "Material Design"
+  - title: "Material Design"
     url: "https://www.google.com/design/spec/material-design/"
-  - 3:
-    title: "Bottom navigation bars"
+  - title: "Bottom navigation bars"
     url: "https://www.google.com/design/spec/components/bottom-navigation.html"
-  - 4:
-    title: "Designing Effective Navigation"
+  - title: "Designing Effective Navigation"
     url: "http://developer.android.com/intl/pt-br/training/design-navigation/index.html"
-  - 5:
-    title: "Adicionar o Google Analytics ao seu aplicativo para Android"
+  - title: "Adicionar o Google Analytics ao seu aplicativo para Android"
     url: "https://developers.google.com/analytics/devguides/collection/android/v4/"
-  - 6:
-    title: "Get real user feedback with beta tests"
+  - title: "Get real user feedback with beta tests"
     url: "http://developer.android.com/intl/pt-br/distribute/engage/beta.html"
 ---
 

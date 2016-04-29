@@ -254,6 +254,9 @@ pre {
   margin-top: 28px;
   margin-bottom: 56px; }
 
+.flnt-cast .player audio {
+  width: 100%; }
+
 .flnt-cast .comments {
   margin-top: 56px; }
 

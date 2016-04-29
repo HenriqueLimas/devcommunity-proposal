@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dev &amp; Community</title>
+    <description>Dev &amp; Community.
+</description>
+    <link>http://devcommunitycast.com.br//</link>
+    <atom:link href="http://devcommunitycast.com.br//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 29 Apr 2016 09:39:36 -0300</pubDate>
+    <lastBuildDate>Fri, 29 Apr 2016 09:39:36 -0300</lastBuildDate>
+    <generator>Jekyll v3.0.5</generator>
+    
+      <item>
+        <title>Faaala, Neto! – JavaScript e aplicativos móveis</title>
+        <description>&lt;p&gt;Bem-vindos ao episódio #002 do Faaala, Neto!&lt;/p&gt;
+
+&lt;p&gt;Histórico do meu “envolvimento” e experiência com JavaScript (é sério!), e um resumo dos tipos de frameworks ou formas de desenvolver aplicativos móveis (Android, iOS e etc) com JavaScript, discutindo um pouco dos pontos positivos e negativos em se usar cada uma dessas formas.
+&lt;!--preview--&gt;
+Também o que acho sobre o JavaScript como linguagem nativa para o desenvolvimento de apps móveis, inclusive com uma “revelação” sobre o que já foi pra mim uma grande aposta no mundo de apps.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 20 Apr 2016 01:34:20 -0300</pubDate>
+        <link>http://devcommunitycast.com.br//posts/javascript-e-aplicativos-moveis</link>
+        <guid isPermaLink="true">http://devcommunitycast.com.br//posts/javascript-e-aplicativos-moveis</guid>
+        
+        
+        <category>posts</category>
+        
+      </item>
+    
+      <item>
+        <title>Faaala Neto – Guideline não é regra!</title>
+        <description>&lt;p&gt;Olá pessoal,&lt;/p&gt;
+
+&lt;p&gt;A idéia era lançar hoje o primeiro episódio sobre desenvolvimento móvel, mas tive alguns imprevistos e pra não deixar uma semana sem conteúdo, resolvi antecipar um pouco um projeto que tinha em mente, o Faaala Neto!
+&lt;!--preview--&gt;
+A idéia é um podcast que vem pra substituir meus blog posts, e que pode ser consumido de forma rápida mas que traga alguma mensagem ou pensamento que quero compartilhar sobre desenvolvimento ou comunidade.&lt;/p&gt;
+
+&lt;p&gt;Espero postar esse conteúdo semanalmente e inclusive posso comentar assuntos que me mandarem pelas redes sociais ou por comentários aqui no post. Enfim, fiquem a vontade e aproveitem.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 15 Apr 2016 01:34:20 -0300</pubDate>
+        <link>http://devcommunitycast.com.br//posts/guideline-nao-e-regra</link>
+        <guid isPermaLink="true">http://devcommunitycast.com.br//posts/guideline-nao-e-regra</guid>
+        
+        
+        <category>posts</category>
+        
+      </item>
+    
+      <item>
+        <title>Dev &amp; Community Cast #000 – Comunidade: Carreira e como começar</title>
+        <description>&lt;p&gt;Sejam bem-vindos ao episódio piloto do podcast Dev &amp;amp; Community.&lt;/p&gt;
+
+&lt;p&gt;A idéia desse podcast é trazer conteúdo sobre os temas de comunidade de software e desenvolvimento móvel, trazendo episódios semanais com temas alternados.
+&lt;!--preview--&gt;
+Nesse episódio piloto, Neto Marin (@netomarin) e Alê Borba (@ale_borba) se apresentam, contam um pouco da sua carreira e como as comunidades impactaram as suas carreiras. E para quem quiser se engajar mais em comunidades ou ganhar mais experiência, também vamos falar de como trilhar o seu caminho nas comunidades.&lt;/p&gt;
+
+&lt;p&gt;E o que achou desse nome, Dev &amp;amp; Community Cast?
+Quando gravamos, o podcast ainda estava sem nome. Mas queremos saber o que achou e o que gostaria de ouvir nos próximos episódios.
+Deixe sua opinião nos comentários que iremos ler / responder alguns nos próximos episódios.&lt;/p&gt;
+
+&lt;p&gt;Enfim, deixe sua opinião, sugestões, comentários e etc.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 08 Apr 2016 01:34:20 -0300</pubDate>
+        <link>http://devcommunitycast.com.br//posts/comunidade-carreira-e-como-comecar</link>
+        <guid isPermaLink="true">http://devcommunitycast.com.br//posts/comunidade-carreira-e-como-comecar</guid>
+        
+        
+        <category>posts</category>
+        
+      </item>
+    
+  </channel>
+</rss>

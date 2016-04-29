@@ -14,13 +14,9 @@ layout: default
       <div class="player">
         <audio controls><source src="{{ page.audio }}?_=1" type="audio/mpeg"></audio>
 
-        <div>
-          <button class="mdl-button mdl-js-button mdl-button--primary">
-            <a href="{{ page.audio }}" target="_blank" alt="Abrir em uma nova janela" title="Abrir em uma nova janela">Abrir em uma nova janela</a>
-          </button>
-          <button class="mdl-button mdl-js-button mdl-button--primary">
-            <a href="{{ page.audio }}" download="{{page.title}}.mp3" alt="Baixar" title="Baixar">Baixar</a>
-          </button>
+        <div class="mdl-grid">
+          <a class="mdl-cell mdl-cell--3-col" href="{{ page.audio }}" target="_blank" alt="Abrir em uma nova janela" title="Abrir em uma nova janela">Abrir em uma nova janela</a>
+          <a class="mdl-cell mdl-cell--3-col" href="{{ page.audio }}" download alt="Baixar" title="Baixar">Baixar</a>
         </div>
       </div>
 

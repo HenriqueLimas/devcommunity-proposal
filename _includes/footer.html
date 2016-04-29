@@ -12,12 +12,12 @@
     </ul>
   </div>
   <div class="mdl-mini-footer__right-section">
-    <button class="mdl-mini-footer__social-btn">
-      <i class="material-icons material-icons--white">rss_feed</i>
-    </button>
-    
-    <button class="mdl-mini-footer__social-btn">
-      <i class="material-icons material-icons--white">android</i>
-    </button>
+    {% for feed in site.feeds %}
+      <button class="mdl-mini-footer__social-btn">
+        <a href="{{ feed.url }}" title="{{ feed.title }}">
+          <i class="material-icons material-icons--white">{{ feed.icon }}</i>
+        </a>
+      </button>
+    {% endfor %}
   </div>
 </footer>

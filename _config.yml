@@ -24,3 +24,21 @@ members:
     url: https://twitter.com/ale_borba
     image: http://sp.devfest.com.br/2014/img/speakers/ale_borba.jpg
     description: Community Manager focus on Developers and Technical communities. Working hard to grow the communities that we are envolved in.
+
+feeds:
+  - url: "http://devcommunitycast.com.br/feed/podcast/"
+    description: via RSS
+    title: Assinar via RSS
+    icon: rss_feed
+  - url: "https://itunes.apple.com/br/podcast/dev-community-cast/id1101607027?l=en&mt=2&ls=1"
+    description: no Itunes
+    title: Assinar no Itunes
+    icon: wifi_tethering
+  - url: "http://subscribeonandroid.com/devcommunitycast.com.br/feed/podcast/"
+    description: no Android
+    title: Assinar no Android
+    icon: android
+  - url: "http://subscribebyemail.com/devcommunitycast.com.br/feed/podcast/"
+    description: no Email
+    title: Assinar via Email
+    icon: email

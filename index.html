@@ -21,5 +21,21 @@ layout: default
         </div>
       </section>
     {% endfor %}
+
+    <section class="section--footer mdl-color--white mdl-grid">
+      {% for member in site.members %}
+      <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone flnt-cast--avatar">
+        <div class="section__circle-container__circle mdl-color--accent section__circle--big">
+          <a href="{{ member.url }}">
+            <img class="flnt-cast--avatar__img" src="{{ member.image }}" alt="{{ member.name }}">
+          </a>
+        </div>
+      </div>
+      <div class="section__text mdl-cell mdl-cell--4-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
+        <h5>{{ member.name }}</h5>
+        {{ member.description }}
+      </div>
+      {% endfor %}
+    </section>
   </div>
 </div>

@@ -150,7 +150,13 @@ pre {
   justify-content: center; }
 
 .flnt-cast section > .section__play-btn {
-  min-height: 200px; }
+  min-height: 100px;
+  background-repeat: no-repeat;
+  background-position: center 24px; }
+
+.flnt-cast .is-small-screen section > .section__play-btn {
+  background-position: center;
+  background-size: cover; }
 
 .flnt-cast section > header > .material-icons {
   font-size: 3rem; }
@@ -491,3 +497,6 @@ pre {
   .post-main .post-content img {
     width: 100%;
     height: auto; }
+
+.post-cover {
+  max-width: 100%; }

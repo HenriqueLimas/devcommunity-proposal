@@ -273,8 +273,10 @@ pre {
   display: initial; }
 
 .flnt-cast .site-title {
-  text-decoration: none;
-  color: #fff; }
+  text-decoration: none; }
+
+.flnt-cast .site-title__img {
+  max-width: 100px; }
 
 .page-content {
   max-width: 1200px;

@@ -5,6 +5,7 @@ date: 2016-04-20 04:34:20
 categories: posts
 permalink: /:categories/:title
 audio: "http://media.blubrry.com/dev_community_cast/p/www.devcommunitycast.com.br/episodios/FaaalaNeto-Ep002-JSMobile.mp3"
+image: "http://devcommunitycast.com.br/wp-content/uploads/2016/04/DevCommunityCast-vitrine-FaaalaNeto-JavaScriptAplicativosMoveis-300x168.png"
 links:
   - title: "Nokia Widsets"
     url: "https://en.wikipedia.org/wiki/WidSets"

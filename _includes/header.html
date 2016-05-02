@@ -1,7 +1,7 @@
   <header class="mdl-layout__header mdl-layout__header--scroll">
     <div class="mdl-layout__header-row">
       <span class="mdl-layout-title mdl-cell--1-offset">
-        <a class="site-title" href="/">{{ site.title }}</a>
+        <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
       </span>
 
       <div class="mdl-layout-spacer"></div>
@@ -14,18 +14,18 @@
       </nav>
     </div>
     <div class="mdl-layout__tab-bar mdl-js-ripple-effect mdl-color--primary-dark">
-      <a class="mdl-layout__tab" href="/">Home</a>
+      <a class="mdl-layout__tab" href="{{ site.baseurl }}/">Home</a>
       {% for page in site.pages %}
         {% if page.title %}
-        <a class="mdl-layout__tab" href="{{ page.url | prepend: site.github.url }}">{{ page.title }}</a>
+        <a class="mdl-layout__tab" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
         {% endif %}
       {% endfor %}
     </div>
   </header>
 
   <div class="mdl-layout__drawer">
-    <span class="mdl-layout-title">Assinar o</span>
     <span class="mdl-layout-title">{{ site.title }}</span>
+    <span class="mdl-layout-title">Assinar:</span>
     <nav class="mdl-navigation">
       {% for feed in site.feeds %}
         <a class="mdl-navigation__link" href="{{ feed.url }}" title="{{ feed.title }}">{{ feed.description }}</a>

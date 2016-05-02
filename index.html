@@ -5,8 +5,8 @@ layout: default
   <div class="mdl-grid">
     {% for post in site.posts %}
       <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
-        <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--teal-100 mdl-color-text--white mdl-js-ripple-effect">
-          <i class="material-icons">play_circle_filled</i>
+        <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--white mdl-js-ripple-effect"
+                style="background-image: url({{ post.image }})">
         </header>
         <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
           <div class="mdl-card__supporting-text">
@@ -16,7 +16,7 @@ layout: default
             </p>
           </div>
           <div class="mdl-card__actions">
-            <a href="{{ post.url | prepend: site.github.url }}" class="mdl-button">Acesse o episôdio</a>
+            <a href="{{ post.url | prepend: site.baseurl }}" class="mdl-button">Acesse o episôdio</a>
           </div>
         </div>
       </section>

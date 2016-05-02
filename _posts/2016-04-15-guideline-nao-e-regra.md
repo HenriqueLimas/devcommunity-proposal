@@ -5,6 +5,7 @@ date: 2016-04-15 04:34:20
 categories: posts
 permalink: /:categories/:title
 audio: "http://media.blubrry.com/dev_community_cast/p/www.devcommunitycast.com.br/episodios/FaaalaNeto-GuidelineNaoERegra-Ep001.mp3"
+image: "http://devcommunitycast.com.br/wp-content/uploads/2016/04/DevCommunityCast-vitrine-FaaalaNeto-GuidelineNaoERegra-300x168.png"
 links:
   - title: "Guidelines sobe qualidade"
     url: "http://developer.android.com/intl/pt-br/distribute/essentials/index.html#guidelines"

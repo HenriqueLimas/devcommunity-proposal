@@ -5,7 +5,7 @@ date: 2016-04-08 04:34:20
 categories: posts
 permalink: /:categories/:title
 audio: "http://media.blubrry.com/dev_community_cast/p/www.devcommunitycast.com.br/episodios/CommunityCast-Comunidade-Carreira-Piloto-20160407-Ep000.mp3"
-image: "http://devcommunitycast.com.br/wp-content/uploads/2016/04/DevCommunityCast-vitrine-Comunidade-CarreiraComoComecar-300x168.png"
+image: "http://devcommunitycast.com.br/wp-content/uploads/2016/05/DevCommunityCast-vitrine-Comunidade-CarreiraComoComecar-240x180.png"
 links:
   - title: "Portal iMasters"
     url: "http://imasters.com.br/"

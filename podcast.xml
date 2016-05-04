@@ -4,7 +4,7 @@
 		<atom:link href="http://devcommunitycast.com.br//podcast" rel="self" type="application/rss+xml"/>
 		<link>http://devcommunitycast.com.br/</link>
 		<description>...</description>
-		<lastBuildDate>2016-05-04T17:41:42-03:00</lastBuildDate>
+		<lastBuildDate>2016-05-04T18:03:09-03:00</lastBuildDate>
 		<language>pt-BR</language>
 		
 		<!--
@@ -175,7 +175,7 @@ A idéia desse podcast é trazer conteúdo sobre os temas de comunidade de softw
 
 </itunes:summary>
 			<itunes:author></itunes:author>
-			<itunes:image href="http://devcommunitycast.com.br/wp-content/uploads/2016/04/DevCommunityCast-vitrine-Comunidade-CarreiraComoComecar-300x168.png"/>
+			<itunes:image href="http://devcommunitycast.com.br/wp-content/uploads/2016/05/DevCommunityCast-vitrine-Comunidade-CarreiraComoComecar-240x180.png"/>
 			<itunes:explicit>clean</itunes:explicit>
 			<itunes:duration></itunes:duration>
 			<itunes:keywords></itunes:keywords>

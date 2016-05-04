@@ -3,8 +3,8 @@ layout: default
 ---
 <div class="page-content">
   <div class="mdl-grid">
-    {% for post in site.posts %}
-      <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+    {% for post in paginator.posts %}
+      <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp mdl-cell--12-col">
         <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--white mdl-js-ripple-effect"
                 style="background-image: url({{ post.image }})">
         </header>
@@ -21,6 +21,33 @@ layout: default
         </div>
       </section>
     {% endfor %}
+
+    <section class="pagination mdl-cell--12-col mdl-grid">
+      {% if paginator.previous_page %}
+        <div class="mdl-cell mdl-cell--2-col mdl-cell--1-col-tablet mdl-cell--1-col-phone">
+          {% if paginator.previous_page == 1 %}
+            <a class="pagination-prev" href="/" title="Episódios mais antigos">
+              <i class="material-icons">navigate_before</i>
+            </a>
+          {% else %}
+            <a class="pagination-prev" href="/page{{paginator.previous_page}}" title="Episódios mais antigos">
+              <i class="material-icons">navigate_before</i>
+            </a>
+          {% endif %}
+        </div>
+        <div class="mdl-cell mdl-cell--8-col mdl-cell--6-col-tablet mdl-cell--2-col-phone"></div>
+      {% else %}
+        <div class="mdl-cell mdl-cell--10-col mdl-cell--7-col-tablet mdl-cell--3-col-phone"></div>
+      {% endif %}
+
+      {% if paginator.next_page %}
+        <div class="mdl-cell mdl-cell--2-col mdl-cell--1-col-tablet mdl-cell--1-col-phone mdl-textfield--align-right">
+          <a class="pagination-next" href="/page{{paginator.next_page}}" title="Episódios mais recentes">
+            <i class="material-icons">navigate_next</i>
+          </a>
+        </div>
+      {% endif %}
+    </section>
 
     <section class="section--footer mdl-color--white mdl-shadow--2dp"> <!--  Display flex -->
       {% if site.members.size > 1 %}

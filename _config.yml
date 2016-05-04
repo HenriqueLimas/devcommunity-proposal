@@ -1,5 +1,7 @@
 # Site settings
-gems: ["jekyll-lunr-js-search"]
+gems: ["jekyll-paginate", "jekyll-lunr-js-search"]
+
+paginate: 5
 
 title: Dev & Community
 email: your-email@domain.com
@@ -9,7 +11,6 @@ url: "http://devcommunitycast.com.br/" # the base hostname & protocol for your s
 # Layout settings
 header_type: default  # values [ drawer, default ]
 post_type: highlight    # values [ highlight, default ]
-pagination_type: default  # values [ ops, default ]
 excerpt_separator: <!--preview-->
 
 disqus: true

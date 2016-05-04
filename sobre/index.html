@@ -9,15 +9,15 @@
   <title>Sobre</title>
   <meta name="description" content="Dev & Community.">
 
-  <link rel="canonical" href="http://devcommunitycast.com.br//devcommunity-proposal/sobre/">
-  <link rel="alternate" type="application/rss+xml" title="Dev & Community" href="http://devcommunitycast.com.br//devcommunity-proposal/feed.xml" />
+  <link rel="canonical" href="http://devcommunitycast.com.br//sobre/">
+  <link rel="alternate" type="application/rss+xml" title="Dev & Community" href="http://devcommunitycast.com.br//feed.xml" />
 
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
    <link rel="stylesheet" href="https://code.getmdl.io/1.1.3/material.green-indigo.min.css" />
 
   <!-- Custom theme css -->
-  <link rel="stylesheet" href="/devcommunity-proposal/css/main.css">
+  <link rel="stylesheet" href="/css/main.css">
 </head>
 
 
@@ -25,11 +25,11 @@
 
     <!-- Start Layout -->
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-        <header class="mdl-layout__header mdl-layout__header--scroll mdl-color--white">
+        <header class="mdl-layout__header mdl-layout__header--scroll">
     <div class="mdl-layout__header-row">
-      <span class="mdl-layout-title mdl-cell--1-offset">
-        <a class="site-title" href="/devcommunity-proposal/">
-          <img class="site-title__img" src="http://devcommunitycast.com.br/wp-content/uploads/2016/05/cropped-devcommunity-logo-retangular-pequeno.png">
+      <span class="mdl-layout-title mdl-cell--1-offset mdl-layout--large-screen-only">
+        <a class="site-title" href="/">
+          <a class="site-title" href="/">Dev & Community</a>
         </a>
       </span>
 
@@ -47,16 +47,35 @@
         <a class="mdl-navigation__link" href="http://subscribebyemail.com/devcommunitycast.com.br/feed/podcast/" title="Assinar via Email">no Email</a>
         
       </nav>
+
+      <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable
+                  mdl-textfield--floating-label mdl-textfield--align-right">
+        <form id="search-form" action="/search" method="get">
+          <label class="mdl-button mdl-js-button mdl-button--icon"
+                 for="search-query">
+            <i class="material-icons">search</i>
+          </label>
+          <div class="mdl-textfield__expandable-holder">
+            <input id="search-query"
+                   class="mdl-textfield__input"
+                   type="text"
+                   name="q"
+                   autocomplete="off">
+          </div>
+        </form>
+      </div>
     </div>
     <div class="mdl-layout__tab-bar mdl-js-ripple-effect mdl-color--primary-dark">
-      <a class="mdl-layout__tab" href="/devcommunity-proposal/">Home</a>
+      <a class="mdl-layout__tab" href="/">Home</a>
       
         
       
         
       
         
-        <a class="mdl-layout__tab" href="/devcommunity-proposal/sobre/">Sobre</a>
+        <a class="mdl-layout__tab" href="/sobre/">Sobre</a>
+        
+      
         
       
         
@@ -66,19 +85,20 @@
 
   <div class="mdl-layout__drawer">
     <span class="mdl-layout-title">Dev & Community</span>
-    <span class="mdl-layout-title">Assinar:</span>
     <nav class="mdl-navigation">
       
-        <a class="mdl-navigation__link" href="http://devcommunitycast.com.br/feed/podcast/" title="Assinar via RSS">via RSS</a>
+        <a class="mdl-navigation__link" href="http://devcommunitycast.com.br/feed/podcast/" title="Assinar via RSS">Assinar via RSS</a>
       
-        <a class="mdl-navigation__link" href="https://itunes.apple.com/br/podcast/dev-community-cast/id1101607027?l=en&mt=2&ls=1" title="Assinar no Itunes">no Itunes</a>
+        <a class="mdl-navigation__link" href="https://itunes.apple.com/br/podcast/dev-community-cast/id1101607027?l=en&mt=2&ls=1" title="Assinar no Itunes">Assinar no Itunes</a>
       
-        <a class="mdl-navigation__link" href="http://subscribeonandroid.com/devcommunitycast.com.br/feed/podcast/" title="Assinar no Android">no Android</a>
+        <a class="mdl-navigation__link" href="http://subscribeonandroid.com/devcommunitycast.com.br/feed/podcast/" title="Assinar no Android">Assinar no Android</a>
       
-        <a class="mdl-navigation__link" href="http://subscribebyemail.com/devcommunitycast.com.br/feed/podcast/" title="Assinar via Email">no Email</a>
+        <a class="mdl-navigation__link" href="http://subscribebyemail.com/devcommunitycast.com.br/feed/podcast/" title="Assinar via Email">Assinar via Email</a>
       
     </nav>
   </div>
+
+  <section id="search-results" class="search-results mdl-color--white mdl-shadow--2dp" style="display: none;"> </section>
       <main class="mdl-layout__content">
       <div class="post-ribbon"></div>
 <main class="post-main mdl-layout__content">
@@ -107,7 +127,9 @@
         
       
         
-        <li><a href="/devcommunity-proposal/sobre/">Sobre</a></li>
+        <li><a href="/sobre/">Sobre</a></li>
+        
+      
         
       
         
@@ -149,6 +171,37 @@
 
     <!-- Material Design Lite js Library -->
     <script defer src="https://code.getmdl.io/1.1.3/material.min.js"></script>
+
+    <script src="/js/lib/search.min.js"></script>
+
+    
+    <script id="search-results-template" type="text/mustache">
+      {{#entries}}
+        <article>
+          <h5>
+            <a href="{{ url }}">{{title}}</a>
+          </h5>
+        </article>
+      {{/entries}}
+    </script>
+    
+
+    <script type="text/javascript">
+      $(function() {
+        $('#search-form').on('submit', function () {
+          return false;
+        });
+
+        $('#search-query').lunrSearch({
+          indexUrl  : '/js/index.json',           // url for the .json file containing search index data
+          results   : '#search-results',          // selector for containing search results element
+          template  : '#search-results-template', // selector for Mustache.js template
+          titleMsg  : '<h3>Resultado da pesquisa<h3>',   // message attached in front of results (can be empty)
+          emptyMsg  : '<h3>Resultado da pesquisa<h3><h5>Oops! Não encontrei nenhum post :(</h5>'     // shown message if search returns no results
+        });
+      });
+    </script>
+
   </body>
 
 </html>

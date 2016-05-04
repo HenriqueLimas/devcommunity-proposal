@@ -9,15 +9,15 @@
   <title>Dev & Community</title>
   <meta name="description" content="Dev & Community.">
 
-  <link rel="canonical" href="http://devcommunitycast.com.br//devcommunity-proposal/">
-  <link rel="alternate" type="application/rss+xml" title="Dev & Community" href="http://devcommunitycast.com.br//devcommunity-proposal/feed.xml" />
+  <link rel="canonical" href="http://devcommunitycast.com.br//">
+  <link rel="alternate" type="application/rss+xml" title="Dev & Community" href="http://devcommunitycast.com.br//feed.xml" />
 
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
    <link rel="stylesheet" href="https://code.getmdl.io/1.1.3/material.green-indigo.min.css" />
 
   <!-- Custom theme css -->
-  <link rel="stylesheet" href="/devcommunity-proposal/css/main.css">
+  <link rel="stylesheet" href="/css/main.css">
 </head>
 
 
@@ -25,11 +25,11 @@
 
     <!-- Start Layout -->
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-        <header class="mdl-layout__header mdl-layout__header--scroll mdl-color--white">
+        <header class="mdl-layout__header mdl-layout__header--scroll">
     <div class="mdl-layout__header-row">
-      <span class="mdl-layout-title mdl-cell--1-offset">
-        <a class="site-title" href="/devcommunity-proposal/">
-          <img class="site-title__img" src="http://devcommunitycast.com.br/wp-content/uploads/2016/05/cropped-devcommunity-logo-retangular-pequeno.png">
+      <span class="mdl-layout-title mdl-cell--1-offset mdl-layout--large-screen-only">
+        <a class="site-title" href="/">
+          <a class="site-title" href="/">Dev & Community</a>
         </a>
       </span>
 
@@ -47,16 +47,35 @@
         <a class="mdl-navigation__link" href="http://subscribebyemail.com/devcommunitycast.com.br/feed/podcast/" title="Assinar via Email">no Email</a>
         
       </nav>
+
+      <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable
+                  mdl-textfield--floating-label mdl-textfield--align-right">
+        <form id="search-form" action="/search" method="get">
+          <label class="mdl-button mdl-js-button mdl-button--icon"
+                 for="search-query">
+            <i class="material-icons">search</i>
+          </label>
+          <div class="mdl-textfield__expandable-holder">
+            <input id="search-query"
+                   class="mdl-textfield__input"
+                   type="text"
+                   name="q"
+                   autocomplete="off">
+          </div>
+        </form>
+      </div>
     </div>
     <div class="mdl-layout__tab-bar mdl-js-ripple-effect mdl-color--primary-dark">
-      <a class="mdl-layout__tab" href="/devcommunity-proposal/">Home</a>
+      <a class="mdl-layout__tab" href="/">Home</a>
       
         
       
         
       
         
-        <a class="mdl-layout__tab" href="/devcommunity-proposal/sobre/">Sobre</a>
+        <a class="mdl-layout__tab" href="/sobre/">Sobre</a>
+        
+      
         
       
         
@@ -66,24 +85,25 @@
 
   <div class="mdl-layout__drawer">
     <span class="mdl-layout-title">Dev & Community</span>
-    <span class="mdl-layout-title">Assinar:</span>
     <nav class="mdl-navigation">
       
-        <a class="mdl-navigation__link" href="http://devcommunitycast.com.br/feed/podcast/" title="Assinar via RSS">via RSS</a>
+        <a class="mdl-navigation__link" href="http://devcommunitycast.com.br/feed/podcast/" title="Assinar via RSS">Assinar via RSS</a>
       
-        <a class="mdl-navigation__link" href="https://itunes.apple.com/br/podcast/dev-community-cast/id1101607027?l=en&mt=2&ls=1" title="Assinar no Itunes">no Itunes</a>
+        <a class="mdl-navigation__link" href="https://itunes.apple.com/br/podcast/dev-community-cast/id1101607027?l=en&mt=2&ls=1" title="Assinar no Itunes">Assinar no Itunes</a>
       
-        <a class="mdl-navigation__link" href="http://subscribeonandroid.com/devcommunitycast.com.br/feed/podcast/" title="Assinar no Android">no Android</a>
+        <a class="mdl-navigation__link" href="http://subscribeonandroid.com/devcommunitycast.com.br/feed/podcast/" title="Assinar no Android">Assinar no Android</a>
       
-        <a class="mdl-navigation__link" href="http://subscribebyemail.com/devcommunitycast.com.br/feed/podcast/" title="Assinar via Email">no Email</a>
+        <a class="mdl-navigation__link" href="http://subscribebyemail.com/devcommunitycast.com.br/feed/podcast/" title="Assinar via Email">Assinar via Email</a>
       
     </nav>
   </div>
+
+  <section id="search-results" class="search-results mdl-color--white mdl-shadow--2dp" style="display: none;"> </section>
       <main class="mdl-layout__content">
       <div class="page-content">
   <div class="mdl-grid">
     
-      <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+      <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp mdl-cell--12-col">
         <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--white mdl-js-ripple-effect"
                 style="background-image: url(http://devcommunitycast.com.br/wp-content/uploads/2016/04/DevCommunityCast-vitrine-FaaalaNeto-JavaScriptAplicativosMoveis-300x168.png)">
         </header>
@@ -99,12 +119,12 @@
             </p>
           </div>
           <div class="mdl-card__actions">
-            <a href="/devcommunity-proposal/posts/javascript-e-aplicativos-moveis" class="mdl-button">Acesse o episôdio</a>
+            <a href="/posts/javascript-e-aplicativos-moveis" class="mdl-button">Acesse o episôdio</a>
           </div>
         </div>
       </section>
     
-      <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+      <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp mdl-cell--12-col">
         <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--white mdl-js-ripple-effect"
                 style="background-image: url(http://devcommunitycast.com.br/wp-content/uploads/2016/04/DevCommunityCast-vitrine-FaaalaNeto-GuidelineNaoERegra-300x168.png)">
         </header>
@@ -120,12 +140,12 @@
             </p>
           </div>
           <div class="mdl-card__actions">
-            <a href="/devcommunity-proposal/posts/guideline-nao-e-regra" class="mdl-button">Acesse o episôdio</a>
+            <a href="/posts/guideline-nao-e-regra" class="mdl-button">Acesse o episôdio</a>
           </div>
         </div>
       </section>
     
-      <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+      <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp mdl-cell--12-col">
         <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--white mdl-js-ripple-effect"
                 style="background-image: url(http://devcommunitycast.com.br/wp-content/uploads/2016/04/DevCommunityCast-vitrine-Comunidade-CarreiraComoComecar-300x168.png)">
         </header>
@@ -141,38 +161,54 @@
             </p>
           </div>
           <div class="mdl-card__actions">
-            <a href="/devcommunity-proposal/posts/comunidade-carreira-e-como-comecar" class="mdl-button">Acesse o episôdio</a>
+            <a href="/posts/comunidade-carreira-e-como-comecar" class="mdl-button">Acesse o episôdio</a>
           </div>
         </div>
       </section>
     
 
-    <section class="section--footer mdl-color--white mdl-grid">
+    <section class="pagination mdl-cell--12-col mdl-grid">
       
-      <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone flnt-cast--avatar">
-        <div class="section__circle-container__circle mdl-color--accent section__circle--big">
-          <a href="https://twitter.com/netomarin">
-            <img class="flnt-cast--avatar__img" src="http://sp.devfest.com.br/2014/img/speakers/neto_marin.png" alt="Neto Marin">
-          </a>
+        <div class="mdl-cell mdl-cell--10-col mdl-cell--7-col-tablet mdl-cell--3-col-phone"></div>
+      
+
+      
+    </section>
+
+    <section class="section--footer mdl-color--white mdl-shadow--2dp"> <!--  Display flex -->
+      
+      <h4>Autores</h4>
+      
+
+      <div class="member-list">
+        
+        <div class="member-container">
+          <div class="section__circle-container flnt-cast--avatar">
+            <div class="section__circle-container__circle section__circle--big">
+              <a href="https://twitter.com/netomarin">
+                <img class="flnt-cast--avatar__img" src="http://sp.devfest.com.br/2014/img/speakers/neto_marin.png" alt="Neto Marin">
+              </a>
+            </div>
+          </div>
+          <div class="member__text">
+            <h5>Neto Marin</h5>
+          </div>
         </div>
-      </div>
-      <div class="section__text mdl-cell mdl-cell--4-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
-        <h5>Neto Marin</h5>
-        Developer Advocate for Android, Cloud and Social at Google, with focus on LatAm, but first at all, a passionate and dedicated dad and husband!
-      </div>
-      
-      <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone flnt-cast--avatar">
-        <div class="section__circle-container__circle mdl-color--accent section__circle--big">
-          <a href="https://twitter.com/ale_borba">
-            <img class="flnt-cast--avatar__img" src="http://sp.devfest.com.br/2014/img/speakers/ale_borba.jpg" alt="Alê Borba">
-          </a>
+        
+        <div class="member-container">
+          <div class="section__circle-container flnt-cast--avatar">
+            <div class="section__circle-container__circle section__circle--big">
+              <a href="https://twitter.com/ale_borba">
+                <img class="flnt-cast--avatar__img" src="http://sp.devfest.com.br/2014/img/speakers/ale_borba.jpg" alt="Alê Borba">
+              </a>
+            </div>
+          </div>
+          <div class="member__text">
+            <h5>Alê Borba</h5>
+          </div>
         </div>
+        
       </div>
-      <div class="section__text mdl-cell mdl-cell--4-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
-        <h5>Alê Borba</h5>
-        Community Manager focus on Developers and Technical communities. Working hard to grow the communities that we are envolved in.
-      </div>
-      
     </section>
   </div>
 </div>
@@ -189,7 +225,9 @@
         
       
         
-        <li><a href="/devcommunity-proposal/sobre/">Sobre</a></li>
+        <li><a href="/sobre/">Sobre</a></li>
+        
+      
         
       
         
@@ -231,6 +269,37 @@
 
     <!-- Material Design Lite js Library -->
     <script defer src="https://code.getmdl.io/1.1.3/material.min.js"></script>
+
+    <script src="/js/lib/search.min.js"></script>
+
+    
+    <script id="search-results-template" type="text/mustache">
+      {{#entries}}
+        <article>
+          <h5>
+            <a href="{{ url }}">{{title}}</a>
+          </h5>
+        </article>
+      {{/entries}}
+    </script>
+    
+
+    <script type="text/javascript">
+      $(function() {
+        $('#search-form').on('submit', function () {
+          return false;
+        });
+
+        $('#search-query').lunrSearch({
+          indexUrl  : '/js/index.json',           // url for the .json file containing search index data
+          results   : '#search-results',          // selector for containing search results element
+          template  : '#search-results-template', // selector for Mustache.js template
+          titleMsg  : '<h3>Resultado da pesquisa<h3>',   // message attached in front of results (can be empty)
+          emptyMsg  : '<h3>Resultado da pesquisa<h3><h5>Oops! Não encontrei nenhum post :(</h5>'     // shown message if search returns no results
+        });
+      });
+    </script>
+
   </body>
 
 </html>

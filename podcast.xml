@@ -1,0 +1,185 @@
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" version="2.0">
+	<channel>
+		<title>Dev & Community</title>
+		<atom:link href="http://devcommunitycast.com.br//podcast" rel="self" type="application/rss+xml"/>
+		<link>http://devcommunitycast.com.br/</link>
+		<description>...</description>
+		<lastBuildDate>2016-05-04T17:02:37-03:00</lastBuildDate>
+		<language>pt-BR</language>
+		
+		<!--
+		 podcast_generator="Blubrry PowerPress/6.3.3" mode="advanced" 
+		-->
+		<itunes:summary>
+		
+		</itunes:summary>
+		<itunes:author></itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+		
+
+		
+
+		<managingEditor>your-email@domain.com (Dev & Community)</managingEditor>
+		<itunes:subtitle>
+		
+		</itunes:subtitle>
+
+		<itunes:category text="">
+			<itunes:category text="Podcasting"/>
+		</itunes:category>
+
+		<googleplay:email>netomarin@gmail.com</googleplay:email>
+		<googleplay:category text=""/>
+		
+		
+		<item>
+			<title>Faaala, Neto! – JavaScript e aplicativos móveis</title>
+			<link>
+			http://devcommunitycast.com.br///posts/javascript-e-aplicativos-moveis
+			</link>
+			<pubDate>Wed, 20 Apr 2016 01:34:20 -0300</pubDate>
+
+			<comments>
+			http://devcommunitycast.com.br///posts/javascript-e-aplicativos-moveis/#comments
+			</comments>
+
+			
+			<dc:creator></dc:creator>
+			
+			
+			
+
+			<description>
+				<![CDATA[ Bem-vindos ao episódio #002 do Faaala, Neto!
+
+Histórico do meu “envolvimento” e experiência com JavaScript (é sério!), e um resumo dos tipos de frameworks ou formas de desenvolver aplicativos móveis (Android, iOS e etc) com JavaScript, discutindo um pouco dos pontos positivos e negativos em se usar cada uma dessas formas.
+
+ ]]>
+			</description>
+
+			<content:encoded>
+				<![CDATA[ &lt;p&gt;Bem-vindos ao episódio #002 do Faaala, Neto!&lt;/p&gt;
+
+&lt;p&gt;Histórico do meu “envolvimento” e experiência com JavaScript (é sério!), e um resumo dos tipos de frameworks ou formas de desenvolver aplicativos móveis (Android, iOS e etc) com JavaScript, discutindo um pouco dos pontos positivos e negativos em se usar cada uma dessas formas.
+&lt;!--preview--&gt;
+Também o que acho sobre o JavaScript como linguagem nativa para o desenvolvimento de apps móveis, inclusive com uma “revelação” sobre o que já foi pra mim uma grande aposta no mundo de apps.&lt;/p&gt;
+ ]]>
+			</content:encoded>
+
+			<enclosure url="http://media.blubrry.com/dev_community_cast/p/www.devcommunitycast.com.br/episodios/FaaalaNeto-Ep002-JSMobile.mp3" length="" type="audio/"/>
+			<itunes:summary>Bem-vindos ao episódio #002 do Faaala, Neto!
+
+Histórico do meu “envolvimento” e experiência com JavaScript (é sério!), e um resumo dos tipos de frameworks ou formas de desenvolver aplicativos móveis (Android, iOS e etc) com JavaScript, discutindo um pouco dos pontos positivos e negativos em se usar cada uma dessas formas.
+
+</itunes:summary>
+			<itunes:author></itunes:author>
+			<itunes:image href="http://devcommunitycast.com.br/wp-content/uploads/2016/04/DevCommunityCast-vitrine-FaaalaNeto-JavaScriptAplicativosMoveis-300x168.png"/>
+			<itunes:explicit>clean</itunes:explicit>
+			<itunes:duration></itunes:duration>
+			<itunes:keywords></itunes:keywords>
+		</item>
+		
+		<item>
+			<title>Faaala Neto – Guideline não é regra!</title>
+			<link>
+			http://devcommunitycast.com.br///posts/guideline-nao-e-regra
+			</link>
+			<pubDate>Fri, 15 Apr 2016 01:34:20 -0300</pubDate>
+
+			<comments>
+			http://devcommunitycast.com.br///posts/guideline-nao-e-regra/#comments
+			</comments>
+
+			
+			<dc:creator></dc:creator>
+			
+			
+			
+
+			<description>
+				<![CDATA[ Olá pessoal,
+
+A idéia era lançar hoje o primeiro episódio sobre desenvolvimento móvel, mas tive alguns imprevistos e pra não deixar uma semana sem conteúdo, resolvi antecipar um pouco um projeto que tinha em mente, o Faaala Neto!
+
+ ]]>
+			</description>
+
+			<content:encoded>
+				<![CDATA[ &lt;p&gt;Olá pessoal,&lt;/p&gt;
+
+&lt;p&gt;A idéia era lançar hoje o primeiro episódio sobre desenvolvimento móvel, mas tive alguns imprevistos e pra não deixar uma semana sem conteúdo, resolvi antecipar um pouco um projeto que tinha em mente, o Faaala Neto!
+&lt;!--preview--&gt;
+A idéia é um podcast que vem pra substituir meus blog posts, e que pode ser consumido de forma rápida mas que traga alguma mensagem ou pensamento que quero compartilhar sobre desenvolvimento ou comunidade.&lt;/p&gt;
+
+&lt;p&gt;Espero postar esse conteúdo semanalmente e inclusive posso comentar assuntos que me mandarem pelas redes sociais ou por comentários aqui no post. Enfim, fiquem a vontade e aproveitem.&lt;/p&gt;
+ ]]>
+			</content:encoded>
+
+			<enclosure url="http://media.blubrry.com/dev_community_cast/p/www.devcommunitycast.com.br/episodios/FaaalaNeto-GuidelineNaoERegra-Ep001.mp3" length="" type="audio/"/>
+			<itunes:summary>Olá pessoal,
+
+A idéia era lançar hoje o primeiro episódio sobre desenvolvimento móvel, mas tive alguns imprevistos e pra não deixar uma semana sem conteúdo, resolvi antecipar um pouco um projeto que tinha em mente, o Faaala Neto!
+
+</itunes:summary>
+			<itunes:author></itunes:author>
+			<itunes:image href="http://devcommunitycast.com.br/wp-content/uploads/2016/04/DevCommunityCast-vitrine-FaaalaNeto-GuidelineNaoERegra-300x168.png"/>
+			<itunes:explicit>clean</itunes:explicit>
+			<itunes:duration></itunes:duration>
+			<itunes:keywords></itunes:keywords>
+		</item>
+		
+		<item>
+			<title>Dev & Community Cast #000 – Comunidade: Carreira e como começar</title>
+			<link>
+			http://devcommunitycast.com.br///posts/comunidade-carreira-e-como-comecar
+			</link>
+			<pubDate>Fri, 08 Apr 2016 01:34:20 -0300</pubDate>
+
+			<comments>
+			http://devcommunitycast.com.br///posts/comunidade-carreira-e-como-comecar/#comments
+			</comments>
+
+			
+			<dc:creator></dc:creator>
+			
+			
+			
+
+			<description>
+				<![CDATA[ Sejam bem-vindos ao episódio piloto do podcast Dev &amp; Community.
+
+A idéia desse podcast é trazer conteúdo sobre os temas de comunidade de software e desenvolvimento móvel, trazendo episódios semanais com temas alternados.
+
+ ]]>
+			</description>
+
+			<content:encoded>
+				<![CDATA[ &lt;p&gt;Sejam bem-vindos ao episódio piloto do podcast Dev &amp;amp; Community.&lt;/p&gt;
+
+&lt;p&gt;A idéia desse podcast é trazer conteúdo sobre os temas de comunidade de software e desenvolvimento móvel, trazendo episódios semanais com temas alternados.
+&lt;!--preview--&gt;
+Nesse episódio piloto, Neto Marin (@netomarin) e Alê Borba (@ale_borba) se apresentam, contam um pouco da sua carreira e como as comunidades impactaram as suas carreiras. E para quem quiser se engajar mais em comunidades ou ganhar mais experiência, também vamos falar de como trilhar o seu caminho nas comunidades.&lt;/p&gt;
+
+&lt;p&gt;E o que achou desse nome, Dev &amp;amp; Community Cast?
+Quando gravamos, o podcast ainda estava sem nome. Mas queremos saber o que achou e o que gostaria de ouvir nos próximos episódios.
+Deixe sua opinião nos comentários que iremos ler / responder alguns nos próximos episódios.&lt;/p&gt;
+
+&lt;p&gt;Enfim, deixe sua opinião, sugestões, comentários e etc.&lt;/p&gt;
+ ]]>
+			</content:encoded>
+
+			<enclosure url="http://media.blubrry.com/dev_community_cast/p/www.devcommunitycast.com.br/episodios/CommunityCast-Comunidade-Carreira-Piloto-20160407-Ep000.mp3" length="" type="audio/"/>
+			<itunes:summary>Sejam bem-vindos ao episódio piloto do podcast Dev &amp; Community.
+
+A idéia desse podcast é trazer conteúdo sobre os temas de comunidade de software e desenvolvimento móvel, trazendo episódios semanais com temas alternados.
+
+</itunes:summary>
+			<itunes:author></itunes:author>
+			<itunes:image href="http://devcommunitycast.com.br/wp-content/uploads/2016/04/DevCommunityCast-vitrine-Comunidade-CarreiraComoComecar-300x168.png"/>
+			<itunes:explicit>clean</itunes:explicit>
+			<itunes:duration></itunes:duration>
+			<itunes:keywords></itunes:keywords>
+		</item>
+		
+	</channel>
+</rss>

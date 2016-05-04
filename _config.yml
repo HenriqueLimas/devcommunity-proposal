@@ -18,11 +18,9 @@ members:
   - name: Neto Marin
     url: https://twitter.com/netomarin
     image: http://sp.devfest.com.br/2014/img/speakers/neto_marin.png
-    description: Developer Advocate for Android, Cloud and Social at Google, with focus on LatAm, but first at all, a passionate and dedicated dad and husband!
   - name: Alê Borba
     url: https://twitter.com/ale_borba
     image: http://sp.devfest.com.br/2014/img/speakers/ale_borba.jpg
-    description: Community Manager focus on Developers and Technical communities. Working hard to grow the communities that we are envolved in.
 
 feeds:
   - url: "http://devcommunitycast.com.br/feed/podcast/"

@@ -225,19 +225,19 @@ pre {
   flex-shrink: 1;
 }
 
-.flnt-cast section .section__text {
+.flnt-cast section .member__text {
   flex-grow: 1;
   flex-shrink: 0;
   padding-top: 8px;
 }
 
-.flnt-cast section .section__text h5 {
+.flnt-cast section .member__text h5 {
   font-size: inherit;
   margin: 0;
   margin-bottom: 0.5em;
 }
 
-.flnt-cast section .section__text a {
+.flnt-cast section .member__text a {
   text-decoration: none;
 }
 
@@ -262,9 +262,25 @@ pre {
 }
 
 .flnt-cast section.section--footer {
-  padding: 64px 0;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  text-align: center;
+  padding: 10px 0 64px 0;
   margin: 0 -8px -8px 0px;
   width: 100%;
+}
+
+
+.flnt-cast section.section--footer .member-list {
+  display: flex;
+  justify-content: center;
+}
+.flnt-cast section.section--footer .member-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .flnt-cast section.section--center .section__text:not(:last-child) {

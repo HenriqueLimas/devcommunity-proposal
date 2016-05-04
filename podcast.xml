@@ -1,0 +1,92 @@
+---
+layout: null
+---
+<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/" xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0" version="2.0">
+	<channel>
+		<title>{{ site.title }}</title>
+		<atom:link href="{{ site.url }}/podcast" rel="self" type="application/rss+xml"/>
+		<link>{{ site.url }}</link>
+		<description>...</description>
+		<lastBuildDate>{{ site.time | date_to_xmlschema }}</lastBuildDate>
+		<language>pt-BR</language>
+		{% if site.image %}
+		<image>
+			<title>{{ site.title }}</title>
+			<url>
+			{{ site.image }}
+			</url>
+			<link>{{ site.url }}</link>
+		</image>
+		{% endif %}
+		<!--
+		 podcast_generator="Blubrry PowerPress/6.3.3" mode="advanced" 
+		-->
+		<itunes:summary>
+		{{ site.summary }}
+		</itunes:summary>
+		<itunes:author>{{ site.author }}</itunes:author>
+		<itunes:explicit>clean</itunes:explicit>
+		{% if site.image %}
+		<itunes:image href="{{ site.image }}"/>
+		{% endif %}
+
+		{% if site.owner %}
+		<itunes:owner>
+			<itunes:name>{{ site.owner.name }}</itunes:name>
+			<itunes:email>{{ site.owner.email }}</itunes:email>
+		</itunes:owner>
+		{% endif %}
+
+		<managingEditor>{{ site.email }} ({{ site.title }})</managingEditor>
+		<itunes:subtitle>
+		{{ site.subtitle }}
+		</itunes:subtitle>
+
+		<itunes:category text="{{ site.category }}">
+			<itunes:category text="Podcasting"/>
+		</itunes:category>
+
+		<googleplay:email>netomarin@gmail.com</googleplay:email>
+		<googleplay:category text="{{ site.category }}"/>
+		
+		{% for post in site.posts %}
+		<item>
+			<title>{{ post.title | strip_html }}</title>
+			<link>
+			{{ site.url }}/{{ post.url }}
+			</link>
+			<pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+
+			<comments>
+			{{ site.url }}/{{ post.url }}/#comments
+			</comments>
+
+			{% if post.author %}
+			<dc:creator>{{ post.author }}</dc:creator>
+			{% else %}
+			<dc:creator>{{ site.author }}</dc:creator>
+			{% endif %}
+			
+			{% for tag in post.tags %}
+			<category><![CDATA[ {{ tag }} ]]></category>
+			{% endfor %}
+
+			<description>
+				<![CDATA[ {{ post.excerpt | strip_html }} ]]>
+			</description>
+
+			<content:encoded>
+				<![CDATA[ {{ post.content | xml_escape }} ]]>
+			</content:encoded>
+
+			<enclosure url="{{ post.audio }}" length="{{ post.audio_file_length}}" type="audio/{{ post.audio_file_type }}"/>
+			<itunes:summary>{{ post.excerpt | strip_html }}</itunes:summary>
+			<itunes:author>{{ site.author }}</itunes:author>
+			<itunes:image href="{{ post.image }}"/>
+			<itunes:explicit>clean</itunes:explicit>
+			<itunes:duration>{{ post.duration }}</itunes:duration>
+			<itunes:keywords>{{ post.tags }}</itunes:keywords>
+		</item>
+		{% endfor %}
+	</channel>
+</rss>

@@ -1,6 +1,6 @@
   <header class="mdl-layout__header mdl-layout__header--scroll">
     <div class="mdl-layout__header-row">
-      <span class="mdl-layout-title mdl-cell--1-offset">
+      <span class="mdl-layout-title mdl-cell--1-offset mdl-layout--large-screen-only">
         <a class="site-title" href="{{ site.baseurl }}/">
           <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
         </a>
@@ -14,6 +14,23 @@
         <a class="mdl-navigation__link" href="{{ feed.url }}" title="{{ feed.title }}">{{ feed.description }}</a>
         {% endfor %}
       </nav>
+
+      <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable
+                  mdl-textfield--floating-label mdl-textfield--align-right">
+        <form id="search-form" action="/search" method="get">
+          <label class="mdl-button mdl-js-button mdl-button--icon"
+                 for="search-query">
+            <i class="material-icons">search</i>
+          </label>
+          <div class="mdl-textfield__expandable-holder">
+            <input id="search-query"
+                   class="mdl-textfield__input"
+                   type="text"
+                   name="q"
+                   autocomplete="off">
+          </div>
+        </form>
+      </div>
     </div>
     <div class="mdl-layout__tab-bar mdl-js-ripple-effect mdl-color--primary-dark">
       <a class="mdl-layout__tab" href="{{ site.baseurl }}/">Home</a>
@@ -33,3 +50,5 @@
       {% endfor %}
     </nav>
   </div>
+
+  <section id="search-results" class="search-results mdl-color--white mdl-shadow--2dp" style="display: none;"> </section>

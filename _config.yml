@@ -1,8 +1,9 @@
 # Site settings
+gems: ["jekyll-lunr-js-search"]
+
 title: Dev & Community
 email: your-email@domain.com
 description: Dev & Community.
-baseurl: "/devcommunity-proposal" # the subpath of your site, e.g. /blog/
 url: "http://devcommunitycast.com.br/" # the base hostname & protocol for your site
 
 # Layout settings

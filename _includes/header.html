@@ -33,7 +33,7 @@
       </div>
     </div>
     <div class="mdl-layout__tab-bar mdl-js-ripple-effect mdl-color--primary-dark">
-      <a class="mdl-layout__tab" href="{{ site.baseurl }}/">Home</a>
+      <a class="mdl-layout__tab" href="{{ site.baseurl }}">Home</a>
       {% for page in site.pages %}
         {% if page.title %}
         <a class="mdl-layout__tab" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>

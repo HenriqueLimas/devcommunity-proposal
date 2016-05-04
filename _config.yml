@@ -1,11 +1,12 @@
 # Site settings
 gems: ["jekyll-paginate", "jekyll-lunr-js-search"]
 
-paginate: 5
+paginate: 2
 
 title: Dev & Community
 email: your-email@domain.com
 description: Dev & Community.
+baseurl: "/devcommunity-proposal/" # the base hostname & protocol for your site
 url: "http://devcommunitycast.com.br/" # the base hostname & protocol for your site
 
 # Layout settings

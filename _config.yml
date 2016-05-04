@@ -17,6 +17,8 @@ excerpt_separator: <!--preview-->
 disqus: true
 disqus_shortname: 'test-henrique'
 
+google_analytics: 'UA-XXXXX-Y'
+
 members:
   - name: Neto Marin
     url: https://twitter.com/netomarin

@@ -1,1 +1,0 @@
-# Dev & Communty site proposal

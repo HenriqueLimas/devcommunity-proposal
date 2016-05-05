@@ -14,6 +14,12 @@
   <meta name="msapplication-starturl" content="http://devcommunitycast.com.br/">
   <meta name="application-name" content="Dev & Community">
   <meta name="msapplication-tooltip" content="Dev & Community">
+  
+  <script>
+  if (window.location.host.substr(-10) == '.github.io' && window.location.protocol != 'https:') {
+      window.location.protocol = 'https:';
+  }
+  </script>
 
   <link rel="manifest" href="/devcommunity-proposal/manifest.json">
 

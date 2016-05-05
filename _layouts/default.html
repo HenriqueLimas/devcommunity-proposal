@@ -18,7 +18,8 @@
     <!-- Material Design Lite js Library -->
     <script defer src="https://code.getmdl.io/1.1.3/material.min.js"></script>
 
-    <script src="{{ site.baseurl }}/js/lib/search.min.js"></script>
+    <script src="{{ site.baseurl }}js/lib/search.min.js"></script>
+    <script defer src="{{ site.baseurl }}js/main.js"></script>
 
     {% raw %}
     <script id="search-results-template" type="text/mustache">
@@ -39,7 +40,7 @@
         });
 
         $('#search-query').lunrSearch({
-          indexUrl  : '{{ site.baseurl }}/js/index.json',           // url for the .json file containing search index data
+          indexUrl  : '{{ site.baseurl }}js/index.json',           // url for the .json file containing search index data
           results   : '#search-results',          // selector for containing search results element
           template  : '#search-results-template', // selector for Mustache.js template
           titleMsg  : '<h3>Resultado da pesquisa<h3>',   // message attached in front of results (can be empty)

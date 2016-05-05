@@ -97,12 +97,12 @@ gulp.task('jekyll-build', function (callback) {
   });
 });
 
-gulp.task('build', ['jekyll-build'], function (done) {
+gulp.task('build', ['jekyll-build'], function () {
   return runSequence([
     'generate-service-worker'
-  ], done);
+  ]);
 });
 
-gulp.task('dist', ['build'], function (done) {
+gulp.task('dist', ['build'], function () {
   return runSequence(['gh-pages']);
 });

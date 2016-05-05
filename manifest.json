@@ -1,0 +1,10 @@
+---
+layout: null
+---
+{
+  "short_name": "{{ site.title }}",
+  "name": "{{ site.title }}",
+  "display": "fullscreen",
+  "orientation": "portrait",
+  "start_url": "{{ "index.html" | prepend: site.baseurl }}"
+}

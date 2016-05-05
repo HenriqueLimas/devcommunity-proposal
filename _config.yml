@@ -41,3 +41,14 @@ feeds:
     icon: email
 
 gems: ["jekyll-paginate", "jekyll-lunr-js-search"]
+
+exclude: 
+  - node_modules
+  - .gitignore
+  - CHANGELOG.md
+  - CONTRIBUTING.md
+  - Gemfile
+  - gulpfile
+  - LICENSE
+  - package.json
+  - README.md

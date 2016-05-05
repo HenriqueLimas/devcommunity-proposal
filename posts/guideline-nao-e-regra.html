@@ -28,7 +28,7 @@
   <link rel="stylesheet" href="https://code.getmdl.io/1.1.3/material.indigo-pink.min.css" />
 
   <!-- Custom theme css -->
-  <link rel="stylesheet" href="/devcommunity-proposal//css/main.css">
+  <link rel="stylesheet" href="/devcommunity-proposal/css/main.css">
 </head>
 
 
@@ -249,7 +249,8 @@ A idéia é um podcast que vem pra substituir meus blog posts, e que pode ser co
     <!-- Material Design Lite js Library -->
     <script defer src="https://code.getmdl.io/1.1.3/material.min.js"></script>
 
-    <script src="/devcommunity-proposal//js/lib/search.min.js"></script>
+    <script src="/devcommunity-proposal/js/lib/search.min.js"></script>
+    <script defer src="/devcommunity-proposal/js/main.js"></script>
 
     
     <script id="search-results-template" type="text/mustache">
@@ -270,7 +271,7 @@ A idéia é um podcast que vem pra substituir meus blog posts, e que pode ser co
         });
 
         $('#search-query').lunrSearch({
-          indexUrl  : '/devcommunity-proposal//js/index.json',           // url for the .json file containing search index data
+          indexUrl  : '/devcommunity-proposal/js/index.json',           // url for the .json file containing search index data
           results   : '#search-results',          // selector for containing search results element
           template  : '#search-results-template', // selector for Mustache.js template
           titleMsg  : '<h3>Resultado da pesquisa<h3>',   // message attached in front of results (can be empty)

@@ -103,6 +103,6 @@ gulp.task('build', ['jekyll-build'], function () {
   ]);
 });
 
-gulp.task('dist', ['build'], function () {
+gulp.task('dist', function () {
   return runSequence(['gh-pages']);
 });
